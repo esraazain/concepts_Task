@@ -70,7 +70,7 @@ def countdown():
         if (temp == 0):
             messagebox.showinfo("Time Countdown", "Time Has Ended ")
          
-        # after every one sec the value of temp will be decremented
+        # after every one sec the value will be decremented
         # by one
         temp -= 1
         
